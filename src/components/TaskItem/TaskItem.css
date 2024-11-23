@@ -1,0 +1,40 @@
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f8f8f8;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-item:hover {
+  background-color: #eef5ff;
+}
+
+.task-details {
+  flex-grow: 1;
+}
+
+.task-details h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.task-details p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.task-item button {
+  margin-left: 10px;
+}
+
+.task-status {
+  font-size: 14px;
+  font-weight: bold;
+  color: #007bff;
+}

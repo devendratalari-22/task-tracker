@@ -1,0 +1,18 @@
+.task-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.task-filters label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.task-filters select {
+  width: auto;
+  padding: 8px;
+}
