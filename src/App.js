@@ -4,7 +4,7 @@ import TaskList from "./components/TaskList/TaskList";
 import TaskFilters from "./components/TaskFilters/TaskFilters";
 import { TaskProvider } from "./context/TaskContext";
 
-import "./app.css"
+import "./App.css"
 
 function App() {
   return (
